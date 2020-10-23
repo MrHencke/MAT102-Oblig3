@@ -59,4 +59,7 @@ for label, x, y in zip(varNames1, P[:, 0], P[:, 1]):
         xy=(x, y), xytext=(5, -3),
         textcoords='offset points', ha='left')
 
+# I score plot (Figur1) kan man se at Melk(1), (2), og Sukker(3) ligger til venstre for sweet og milk-taste i loading plot.
+# Dette gir korrelasjonen at instilling 1-3 gir et søtere og mer melkete produkt.
+
 plt.show()
